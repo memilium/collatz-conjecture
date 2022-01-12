@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width 
+    initial-scale=1.0">
+
+    <title>Collatz conjecture</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Input number below</h1>
+    <h4>If number is even, we divde by two.</h4>
+    <h4>If number is odd, we multiply by 3 and then add 1</h4>
+
+    <div class="container">
+        <div class="input-area">
+            <h5>Input</h5>
+            <input id="input" type="text" placeholder="postive integer" class="text">
+            <button onclick="start()" id="inputButton"> Hit me!</button>
+        </div>
+    </div>
+    
+    <div class="container">
+        <h5>Output</h5>
+        <ul id="output-area">
+        </ul>
+    </div>
+</body>
+</html>
